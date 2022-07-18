@@ -1,0 +1,16 @@
+PODS:
+  - SwiftyGif (5.4.3)
+
+DEPENDENCIES:
+  - SwiftyGif
+
+SPEC REPOS:
+  trunk:
+    - SwiftyGif
+
+SPEC CHECKSUMS:
+  SwiftyGif: 6c3eafd0ce693cad58bb63d2b2fb9bacb8552780
+
+PODFILE CHECKSUM: 5821f574c73ead29c9e743134cf689a02a150004
+
+COCOAPODS: 1.11.3
