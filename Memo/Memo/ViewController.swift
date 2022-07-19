@@ -26,7 +26,6 @@ class ViewController: UIViewController {
     }
     
     override func viewDidAppear(_ animated: Bool) {
-        
         //DB에 저장한 메모 내용 tableView에 Load하기
         let db = FMDatabase(path: dbPath)
         
