@@ -23,6 +23,9 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         //데이터베이스 초기화
         initDB()
+    }
+    
+    override func viewDidAppear(_ animated: Bool) {
         
         //DB에 저장한 메모 내용 tableView에 Load하기
         let db = FMDatabase(path: dbPath)
@@ -43,8 +46,6 @@ class ViewController: UIViewController {
         } else {
             NSLog("DB Connection Error")
         }
-        
-    
     }
     
     
@@ -84,7 +85,7 @@ class ViewController: UIViewController {
         
         
         //메모 내용 array에 넣기
-        if let memo = textfield.text /*, let _ = String?(memo) */{
+        if let memo = textfield.text /*, let _ = String?(memo) */ {
             
             memoArray.append(memo)
             
@@ -93,13 +94,14 @@ class ViewController: UIViewController {
             if db.open() {
                 
                 //메모 내용 db에 넣기
-                let queryToInsert = "insert into memoTB(memotxt) values (\(memo))"
+                let queryToInsert = "insert into memoTB(memotxt) values ('\(memo)')"
                     
                     if !db.executeUpdate(queryToInsert, withArgumentsIn: []) {
                         NSLog("저장 실패")
                     } else {
                         NSLog("저장 성공")
                     }
+                
                 } else {
                     NSLog("DB Connection Error")
                 }
