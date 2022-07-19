@@ -107,11 +107,16 @@ class ViewController: UIViewController {
         }
         
     //save이후 이벤트 처리
-    textfield.resignFirstResponder()
+    textfield.endEditing(true)
     textfield.text = "" //다른방법?
     
     //데이터 새로 로드
     self.tableView.reloadData()
+    }
+    
+    
+    @IBAction func editTextEnd(_ sender: Any) {
+        view.endEditing(true)
     }
     
 }
