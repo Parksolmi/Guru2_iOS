@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5FE1648F9CFCE06675FA6654 /* Pods_NaverWebtoonExample.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 05CC0E7F8D05AC46E04802D6 /* Pods_NaverWebtoonExample.framework */; };
+		A50B95EE288A8CA9003924CD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50B95ED288A8CA9003924CD /* AppDelegate.swift */; };
+		A50B95F0288A8CA9003924CD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50B95EF288A8CA9003924CD /* SceneDelegate.swift */; };
+		A50B95F2288A8CA9003924CD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A50B95F1288A8CA9003924CD /* ViewController.swift */; };
+		A50B95F5288A8CA9003924CD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A50B95F3288A8CA9003924CD /* Main.storyboard */; };
+		A50B95F7288A8CAA003924CD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A50B95F6288A8CAA003924CD /* Assets.xcassets */; };
+		A50B95FA288A8CAA003924CD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A50B95F8288A8CAA003924CD /* LaunchScreen.storyboard */; };
+		A5CA665B289018400061478C /* WebtoonCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA665A289018400061478C /* WebtoonCell.swift */; };
+		A5CA665D28901D000061478C /* WebtoonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA665C28901D000061478C /* WebtoonData.swift */; };
+		A5CA6660289021320061478C /* WebtoonMainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA665F289021320061478C /* WebtoonMainViewController.swift */; };
+		A5CA66622890283A0061478C /* BannerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA66612890283A0061478C /* BannerViewController.swift */; };
+		A5CA666428904A0D0061478C /* DailyWebtoonListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A5CA666328904A0D0061478C /* DailyWebtoonListViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		05CC0E7F8D05AC46E04802D6 /* Pods_NaverWebtoonExample.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_NaverWebtoonExample.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C0B5146CAD7CF5145C81D40 /* Pods-NaverWebtoonExample.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaverWebtoonExample.release.xcconfig"; path = "Target Support Files/Pods-NaverWebtoonExample/Pods-NaverWebtoonExample.release.xcconfig"; sourceTree = "<group>"; };
+		A50B95EA288A8CA9003924CD /* NaverWebtoonExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NaverWebtoonExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A50B95ED288A8CA9003924CD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A50B95EF288A8CA9003924CD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		A50B95F1288A8CA9003924CD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A50B95F4288A8CA9003924CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A50B95F6288A8CAA003924CD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A50B95F9288A8CAA003924CD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A50B95FB288A8CAA003924CD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A5CA665A289018400061478C /* WebtoonCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebtoonCell.swift; sourceTree = "<group>"; };
+		A5CA665C28901D000061478C /* WebtoonData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebtoonData.swift; sourceTree = "<group>"; };
+		A5CA665F289021320061478C /* WebtoonMainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebtoonMainViewController.swift; sourceTree = "<group>"; };
+		A5CA66612890283A0061478C /* BannerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BannerViewController.swift; sourceTree = "<group>"; };
+		A5CA666328904A0D0061478C /* DailyWebtoonListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyWebtoonListViewController.swift; sourceTree = "<group>"; };
+		B78910E11A725EB31A1881AE /* Pods-NaverWebtoonExample.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-NaverWebtoonExample.debug.xcconfig"; path = "Target Support Files/Pods-NaverWebtoonExample/Pods-NaverWebtoonExample.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A50B95E7288A8CA9003924CD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5FE1648F9CFCE06675FA6654 /* Pods_NaverWebtoonExample.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		097201EC9BD2894A023C572C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B78910E11A725EB31A1881AE /* Pods-NaverWebtoonExample.debug.xcconfig */,
+				3C0B5146CAD7CF5145C81D40 /* Pods-NaverWebtoonExample.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		9444316EC5A64FFA8DF57D17 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				05CC0E7F8D05AC46E04802D6 /* Pods_NaverWebtoonExample.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A50B95E1288A8CA9003924CD = {
+			isa = PBXGroup;
+			children = (
+				A50B95EC288A8CA9003924CD /* NaverWebtoonExample */,
+				A50B95EB288A8CA9003924CD /* Products */,
+				097201EC9BD2894A023C572C /* Pods */,
+				9444316EC5A64FFA8DF57D17 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		A50B95EB288A8CA9003924CD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A50B95EA288A8CA9003924CD /* NaverWebtoonExample.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A50B95EC288A8CA9003924CD /* NaverWebtoonExample */ = {
+			isa = PBXGroup;
+			children = (
+				A5CA665E2890210B0061478C /* ViewControllers */,
+				A50B95ED288A8CA9003924CD /* AppDelegate.swift */,
+				A50B95EF288A8CA9003924CD /* SceneDelegate.swift */,
+				A50B95F3288A8CA9003924CD /* Main.storyboard */,
+				A50B95F6288A8CAA003924CD /* Assets.xcassets */,
+				A50B95F8288A8CAA003924CD /* LaunchScreen.storyboard */,
+				A50B95FB288A8CAA003924CD /* Info.plist */,
+				A5CA665A289018400061478C /* WebtoonCell.swift */,
+				A5CA665C28901D000061478C /* WebtoonData.swift */,
+			);
+			path = NaverWebtoonExample;
+			sourceTree = "<group>";
+		};
+		A5CA665E2890210B0061478C /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				A50B95F1288A8CA9003924CD /* ViewController.swift */,
+				A5CA665F289021320061478C /* WebtoonMainViewController.swift */,
+				A5CA66612890283A0061478C /* BannerViewController.swift */,
+				A5CA666328904A0D0061478C /* DailyWebtoonListViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A50B95E9288A8CA9003924CD /* NaverWebtoonExample */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A50B95FE288A8CAA003924CD /* Build configuration list for PBXNativeTarget "NaverWebtoonExample" */;
+			buildPhases = (
+				F5A0D8166508207FB63ACCBF /* [CP] Check Pods Manifest.lock */,
+				A50B95E6288A8CA9003924CD /* Sources */,
+				A50B95E7288A8CA9003924CD /* Frameworks */,
+				A50B95E8288A8CA9003924CD /* Resources */,
+				52C1A2B4826112EA52361D5B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NaverWebtoonExample;
+			productName = NaverWebtoonExample;
+			productReference = A50B95EA288A8CA9003924CD /* NaverWebtoonExample.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A50B95E2288A8CA9003924CD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1340;
+				LastUpgradeCheck = 1340;
+				TargetAttributes = {
+					A50B95E9288A8CA9003924CD = {
+						CreatedOnToolsVersion = 13.4.1;
+					};
+				};
+			};
+			buildConfigurationList = A50B95E5288A8CA9003924CD /* Build configuration list for PBXProject "NaverWebtoonExample" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A50B95E1288A8CA9003924CD;
+			productRefGroup = A50B95EB288A8CA9003924CD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A50B95E9288A8CA9003924CD /* NaverWebtoonExample */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A50B95E8288A8CA9003924CD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A50B95FA288A8CAA003924CD /* LaunchScreen.storyboard in Resources */,
+				A50B95F7288A8CAA003924CD /* Assets.xcassets in Resources */,
+				A50B95F5288A8CA9003924CD /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		52C1A2B4826112EA52361D5B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NaverWebtoonExample/Pods-NaverWebtoonExample-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-NaverWebtoonExample/Pods-NaverWebtoonExample-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-NaverWebtoonExample/Pods-NaverWebtoonExample-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5A0D8166508207FB63ACCBF /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-NaverWebtoonExample-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A50B95E6288A8CA9003924CD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5CA6660289021320061478C /* WebtoonMainViewController.swift in Sources */,
+				A50B95F2288A8CA9003924CD /* ViewController.swift in Sources */,
+				A50B95EE288A8CA9003924CD /* AppDelegate.swift in Sources */,
+				A5CA666428904A0D0061478C /* DailyWebtoonListViewController.swift in Sources */,
+				A5CA665D28901D000061478C /* WebtoonData.swift in Sources */,
+				A5CA665B289018400061478C /* WebtoonCell.swift in Sources */,
+				A50B95F0288A8CA9003924CD /* SceneDelegate.swift in Sources */,
+				A5CA66622890283A0061478C /* BannerViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A50B95F3288A8CA9003924CD /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A50B95F4288A8CA9003924CD /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A50B95F8288A8CAA003924CD /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A50B95F9288A8CAA003924CD /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A50B95FC288A8CAA003924CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A50B95FD288A8CAA003924CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A50B95FF288A8CAA003924CD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B78910E11A725EB31A1881AE /* Pods-NaverWebtoonExample.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NaverWebtoonExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ssmi.NaverWebtoonExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A50B9600288A8CAA003924CD /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3C0B5146CAD7CF5145C81D40 /* Pods-NaverWebtoonExample.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NaverWebtoonExample/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ssmi.NaverWebtoonExample;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A50B95E5288A8CA9003924CD /* Build configuration list for PBXProject "NaverWebtoonExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50B95FC288A8CAA003924CD /* Debug */,
+				A50B95FD288A8CAA003924CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A50B95FE288A8CAA003924CD /* Build configuration list for PBXNativeTarget "NaverWebtoonExample" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A50B95FF288A8CAA003924CD /* Debug */,
+				A50B9600288A8CAA003924CD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A50B95E2288A8CA9003924CD /* Project object */;
+}
